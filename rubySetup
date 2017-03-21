@@ -1,0 +1,23 @@
+Jekyll Setup on Windows
+- open admin power shell
+- Install choclatey
+```
+iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+```
+- install ruby
+```
+choco install ruby -y
+```
+- download latest ruby gems https://rubygems.org/pages/download
+```
+gem install --local C:\rubygems-update-2.6.10.gem
+update_rubygems
+```
+- Install bundler
+```
+gem install bundler
+```
+- Install Jekyll
+```
+gem install jekyll
+```
